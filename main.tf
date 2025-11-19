@@ -8,6 +8,9 @@ resource "aws_s3_bucket" "my_bucket" {
 
   tags = {
     Name        = "My bucket"
+<<<<<<< HEAD
     Environment = "Dev"
+=======
+>>>>>>> 3f61933 (update main.tf)
   }
 } 
